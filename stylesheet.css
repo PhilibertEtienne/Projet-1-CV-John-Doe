@@ -1,0 +1,196 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100vw;
+}
+ 
+ul {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5;
+    min-width: 100%;
+}
+
+li{
+    display: inline-block;
+    margin: 5%;
+    width: 15vW;
+}
+header {
+    display: flex;
+    overflow: hidden;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+.mainmenu {
+    height: 60vh;
+    background-color: #ffffff ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.wave-container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    height: 20vh;
+    background-color:#ffffff;
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.wave-containertop {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    height: 20vh;
+    background-color:#ffffff;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@keyframes waving {
+    0% {
+        transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+        animation-timing-function:ease-in-out
+    }
+ 
+    50% {
+        transform: scale(1.3, 1.6) translate3d(0px, 18px, 1px);
+        animation-timing-function:ease-in-out
+    }
+ 
+    100% {
+        transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+        animation-timing-function:ease-in-out
+    }
+  }
+
+@keyframes waving2{
+    0% {
+        transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+        animation-timing-function:ease-in-out
+    }
+ 
+    50% {
+        transform: scale(1.4, 1.7) translate3d(0px, 30px, 15px);
+        animation-timing-function:ease-in-out
+    }
+ 
+    100% {
+        transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+        animation-timing-function:ease-in-out
+    }
+  }
+
+@keyframes waving3 {
+    0% {
+        transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+        animation-timing-function:ease-in-out
+    }
+ 
+    50% {
+        transform: scale(1.8, 2) translate3d(0px, 22px, 5px);
+        animation-timing-function:ease-in-out
+    }
+ 
+    100% {
+        transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+        animation-timing-function:ease-in-out
+    }
+  }
+
+@keyframes wavingtop {
+0% {
+    transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+    animation-timing-function:ease-in-out
+}
+
+50% {
+    transform: scale(1.3, 1.6) translate3d(0px, 18px, 1px);
+    animation-timing-function:ease-in-out
+}
+
+100% {
+    transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+    animation-timing-function:ease-in-out
+}
+}
+  .vaguetop {
+    height: 5vh;
+    width: 100vw;
+    z-index: 3;
+    position: absolute;
+    top: vh;
+    animation: wavingtop 5s ease 1 normal ;
+    animation-iteration-count: infinite;
+    flex-wrap: wrap;
+}
+.vaguetop2 {
+    height: 6vh;
+    width: 100vw;
+    z-index: 2;
+    position: absolute;
+    top: 3vh;
+    animation: waving2 5s ease 1 normal ;
+    animation-iteration-count: infinite;
+    flex-wrap: wrap;
+}
+
+.vaguetop3 {
+    height: 9vh;
+    width: 100vw;
+    z-index:1;
+    position: absolute;
+    top: -5vh;
+    left: 0;
+    animation: waving3 5s ease 1 normal ;
+    animation-iteration-count: infinite;
+    flex-wrap: wrap;
+
+}
+
+.vague {
+    height: 5vh;
+    width: 100vw;
+    z-index: 3;
+    position: absolute;
+    bottom: 7vh;
+    animation: waving 5s ease 1 normal ;
+    animation-iteration-count: infinite;
+    flex-wrap: wrap;
+}
+.vague2 {
+    height: 8vh;
+    width: 100vw;
+    z-index: 2;
+    position: absolute;
+    bottom: 3vh;
+    animation: waving2 5s ease 1 normal ;
+    animation-iteration-count: infinite;
+    flex-wrap: wrap;
+}
+
+.vague3 {
+    height: 9vh;
+    width: 100vw;
+    z-index:1;
+    position: absolute;
+    bottom: -5vh;
+    left: 0;
+    animation: waving3 5s ease 1 normal ;
+    animation-iteration-count: infinite;
+    flex-wrap: wrap;
+
+}
+
+
