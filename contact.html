@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" type="image/x-icon" href="Favicon_Plan de travail 1.png">
+
+    
     <title>Document</title>
 </head>
 <body>
@@ -15,14 +18,32 @@
             <img src="animations/vagueJaune2.png" class="vaguetop2">
             <img src="animations/vagueJaune3.png" class="vaguetop3">
             <div class="waveCorrect"></div>
+
         </div>
     </header>
     <div class="mainmenu">
-            <div class="nav closure odd">Expériences</div>
-            <div class="nav even ">Compétences</div>
-            <div class="nav titre odd">John Doe</div>
-            <div class="nav even">Portfolio</div>
-            <div class="nav cta ">Call me</div>
+        <form action="projikea.php">
+            <div>
+                <label for="lastName">Votre nom</label>
+                <input type="text" id="name" name="name" required>
+            </div>            
+            <div>
+                <label for="mail">Votre mail : </label>
+                <input type="email" id="emailAdress" name="emailAdress" required>
+            </div>            
+            <div>
+                <label for="companyName">Nom de votre entreprise : </label>
+                <input type="text" id="companyName" name="companyName" required>
+            </div>
+            <div>
+                <label for="contactMessage">Votre message : </label>
+                <textarea name="contactMessage" id="contactMessage"  minlength="30"></textarea>
+            </div>
+
+            <div class="buttonsLine">
+                <button type="submit" onclick="href=result.php" >Envoyer </button>
+            </div>
+        </form>
     </div>
     <footer>
         <div class="wave-container">
@@ -32,5 +53,4 @@
         </div>
     </footer>
 </body>
-
 </html>

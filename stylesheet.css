@@ -1,25 +1,20 @@
-
-body {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     width: 100vw;
-}
- 
-ul {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 5;
-    min-width: 100%;
+    font-family: sans-serif;
+    cursor: url(Cursor/Sans\ titre\ -\ 2_Plan\ de\ travail\ 1.png), auto;
 }
 
-li{
-    display: inline-block;
-    margin: 5%;
-    width: 15vW;
+:root {
+    --primary: bisque;
+    --secondary: burlywood;
+    --title-size: 3rem;
+    --error: crimson;
+    --font-family:h
 }
+
 header {
     display: flex;
     overflow: hidden;
@@ -27,14 +22,126 @@ header {
     flex-wrap: wrap;
 }
 
-.mainmenu {
-    height: 60vh;
-    background-color: #ffffff ;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+body {
+    background-image: url(Postcard.jpg);
+    background-size: cover;
+}
 
+.mainmenu {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    overflow: none;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+.nav {
+    width: 15%;
+    margin: 15px;
+    font-size: 20px;
+
+}
+
+.nav:hover {
+    cursor: pointer;
+}
+
+.nav.even:hover {
+    transform: rotate(30deg);
+    transition: 1s;
+    color: #c1272d;
+    cursor : url(Cursor/Pointer_Plan\ de\ travail\ 1\ copie.png), auto;
+
+}
+.nav.odd:hover {
+    color: rgb(228, 254, 31);
+    transform: rotate(-30deg);
+    transition: 1s;
+    cursor : url(Cursor/Pointer_Plan\ de\ travail\ 1\ copie.png), auto;
+
+}
+.mainmenu .titre{
+    font-size: bolder;
+    color: blue;
+    font-size: 40px;
+    font-family: pilowlava;
+    text-shadow: 2px 2px 2px ;
+
+}
+
+.cta {
+    border-radius: 15px;
+    padding: 15px;
+    width: 180px;
+    white-space: nowrap;
+    background-color: blanchedalmond;
+    border: 3px solid;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+
+.cta:hover {
+    background-color: rgb(197, 133, 231);
+    cursor: pointer;
+    cursor : url(Cursor/Pointer_Plan\ de\ travail\ 1\ copie.png), auto;
+
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: large;
+    font-weight: bold;
+    height: 50vh;
+    justify-content: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+
+form input, form textarea {
+    padding: 4px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 10vh;
+    max-height: 100%;
+}
+
+form button {
+    border-radius: 10px;
+    width: 20vw;
+    height: 5vh;
+    border: 2px solid;
+    background-color: blanchedalmond;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+
+form button:hover {
+    background-color: rgb(197, 133, 231);
+    cursor: pointer;
 }
 
 .wave-container {
@@ -42,7 +149,6 @@ header {
     position: relative;
     flex-wrap: wrap;
     height: 20vh;
-    background-color:#ffffff;
     max-width: 100%;
     object-fit: cover;
     overflow: hidden;
@@ -53,11 +159,18 @@ header {
     position: relative;
     flex-wrap: wrap;
     height: 20vh;
-    background-color:#ffffff;
+    
     max-width: 100%;
     object-fit: cover;
 }
 
+.waveCorrect{
+    width: 100vw;
+    height: 8vh;
+    background-color: #c1272d;
+    position: relative;
+}
+  
 @keyframes waving {
     0% {
         transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
@@ -124,6 +237,7 @@ header {
     transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
     animation-timing-function:ease-in-out
 }
+
 }
   .vaguetop {
     height: 5vh;
@@ -135,6 +249,7 @@ header {
     animation-iteration-count: infinite;
     flex-wrap: wrap;
 }
+
 .vaguetop2 {
     height: 6vh;
     width: 100vw;
@@ -147,7 +262,7 @@ header {
 }
 
 .vaguetop3 {
-    height: 9vh;
+    height: 10vh;
     width: 100vw;
     z-index:1;
     position: absolute;
@@ -169,6 +284,7 @@ header {
     animation-iteration-count: infinite;
     flex-wrap: wrap;
 }
+
 .vague2 {
     height: 8vh;
     width: 100vw;
@@ -190,7 +306,29 @@ header {
     animation: waving3 5s ease 1 normal ;
     animation-iteration-count: infinite;
     flex-wrap: wrap;
-
 }
 
+@media screen and (max-width:1024px) {
+.mainmenu .titre{
+    order: -1;
+}
+.mainmenu {
+    flex-direction: column;
+}
+}
 
+@media screen and (max-width:375px) {
+    .mainmenu .titre{
+        order: -1;
+    }
+    .mainmenu {
+        flex-direction: column;
+    }
+ /* .contactMessage {
+       width: 5px;
+    }} */
+}
+@media screen and (min-width:1024) {
+    .mainmenu .titre{
+        order: -1;
+    }}
