@@ -4,7 +4,7 @@
     box-sizing: border-box;
     width: 100vw;
     font-family: sans-serif;
-    cursor: url(Cursor/Sans\ titre\ -\ 2_Plan\ de\ travail\ 1.png), auto;
+    /* cursor: url(Cursor/Sans\ titre\ -\ 2_Plan\ de\ travail\ 1.png), auto; */
 }
 
 :root {
@@ -26,11 +26,15 @@ body {
     background-image: url(Postcard.jpg);
     background-size: cover;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
 .mainmenu {
     display: flex;
     flex-direction: row;
-    height: 60vh;
+    height: 50vh;
     text-align: center; 
     justify-content: center;
     align-items: center;
@@ -91,7 +95,7 @@ body {
 .cta:hover {
     background-color: rgb(197, 133, 231);
     cursor: pointer;
-    cursor : url(Cursor/Pointer_Plan\ de\ travail\ 1\ copie.png), auto;
+    /* cursor : url(Cursor/Pointer_Plan\ de\ travail\ 1\ copie.png), auto; */
 
     
 }
@@ -158,8 +162,7 @@ form button:hover {
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    height: 20vh;
-    
+    height: 30vh;    ;
     max-width: 100%;
     object-fit: cover;
 }

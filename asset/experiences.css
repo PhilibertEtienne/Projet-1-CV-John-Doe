@@ -12,8 +12,7 @@
 /* HEADER */
 /* ----------------------------------------------------- */
 header{
-    overflow-x:hidden;
-    width: 98.5vw;
+    overflow: hidden;
 }
 
 
@@ -22,6 +21,7 @@ header{
 
 body{
     font-family:'Roboto',sans-serif;  
+background-color: rgb(255, 243, 216);
 }
 main{
     display: flex;
@@ -34,7 +34,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 0;
+    margin-top: 10px;
     width: 90vw;
 }
 @media screen and (max-width:1200px){
@@ -124,3 +124,314 @@ p{
     text-align: right;
 }
 
+
+.nav-container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 62px;
+}
+
+.navbar
+{
+	position: relative;
+	z-index: 9;
+	overflow: visible;
+}
+
+.navbar .menu-items
+{
+	display: flex;
+}
+
+.navbar .nav-container li
+{
+	list-style: none;
+}
+
+.navbar .nav-container a
+{
+	text-decoration: none;
+	color: #662d91;
+	font-weight: 500;
+	font-size: 1.2rem;
+	padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover
+{
+	font-weight: bolder;
+}
+
+.nav-container
+{
+	display: block;
+	position: relative;
+	height: 60px;
+}
+
+.nav-container .checkbox
+{
+	position: absolute;
+	display: block;
+	height: 32px;
+	width: 32px;
+	top: 20px;
+	left: 20px;
+	z-index: 5;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.nav-container .hamburger-lines
+{
+	display: block;
+	height: 26px;
+	width: 32px;
+	position: absolute;
+	top: 17px;
+	left: 20px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line
+{
+	display: block;
+	height: 4px;
+	width: 100%;
+	border-radius: 10px;
+	background: rgb(197, 133, 231);
+}
+
+.nav-container .hamburger-lines .line1
+{
+	transform-origin: 0% 0%;
+	transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2
+{
+	transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3
+{
+	transform-origin: 0% 100%;
+	transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items
+{
+	padding-top: 10px;
+	background-color: white;
+	height: 90vh;
+	width: 75%;
+	transform: translate(-100%);
+	display: flex;
+	flex-direction: column;
+	margin-left: -40px;
+	padding-left: 110px;
+	transition: transform 0.5s ease-in-out;
+	border-radius: 30px;
+}
+
+.navbar .menu-items li
+{
+	margin-bottom: 1.2rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items
+{
+	transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1
+{
+	transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2
+{
+	transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3
+{
+	transform: rotate(-45deg);
+}
+
+
+.wave-container
+{
+	display: flex;
+	position: relative;
+	flex-wrap: wrap;
+	height: 20vh;
+	/* background-color:#ffffff; */
+	max-width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.wave-containertop
+{
+	display: flex;
+	position: relative;
+	flex-wrap: wrap;
+	height: 30vh;
+	/* background-color:#ffffff; */
+	max-width: 100%;
+}
+
+@keyframes waving
+{
+	0%
+	{
+		transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+	animation-timing-function:ease-in-out}
+
+	50%
+	{
+		transform: scale(1.3, 1.6) translate3d(0px, 18px, 1px);
+	animation-timing-function:ease-in-out}
+
+	100%
+	{
+		transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+	animation-timing-function:ease-in-out}
+}
+
+@keyframes waving2
+{
+	0%
+	{
+		transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+	animation-timing-function:ease-in-out}
+
+	50%
+	{
+		transform: scale(1.4, 1.7) translate3d(0px, 30px, 15px);
+	animation-timing-function:ease-in-out}
+
+	100%
+	{
+		transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+	animation-timing-function:ease-in-out}
+}
+
+@keyframes waving3
+{
+	0%
+	{
+		transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+	animation-timing-function:ease-in-out}
+
+	50%
+	{
+		transform: scale(1.8, 2) translate3d(0px, 22px, 5px);
+	animation-timing-function:ease-in-out}
+
+	100%
+	{
+		transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+	animation-timing-function:ease-in-out}
+}
+
+@keyframes wavingtop
+{
+	0%
+	{
+		transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+	animation-timing-function:ease-in-out  }
+
+	50%
+	{
+		transform: scale(1.3, 1.6) translate3d(0px, 18px, 1px);
+	animation-timing-function:ease-in-out  }
+
+	100%
+	{
+		transform: scale(1.1, 1.5) translate3d(0px, 0px, 1px);
+	animation-timing-function:ease-in-out  }
+
+}
+
+.vaguetop
+{
+	height: 5vh;
+	width: 100vw;
+	z-index: 3;
+	position: absolute;
+	top: vh;
+	animation: wavingtop 5s ease 1 normal ;
+	animation-iteration-count: infinite;
+	flex-wrap: wrap;
+}
+
+.vaguetop2
+{
+	height: 6vh;
+	width: 100vw;
+	z-index: 2;
+	position: absolute;
+	top: 3vh;
+	animation: waving2 5s ease 1 normal ;
+	animation-iteration-count: infinite;
+	flex-wrap: wrap;
+}
+
+.vaguetop3
+{
+	height: 9vh;
+	width: 100vw;
+	z-index:1;
+	position: absolute;
+	top: -5vh;
+	left: 0;
+	animation: waving3 5s ease 1 normal ;
+	animation-iteration-count: infinite;
+	flex-wrap: wrap;
+}
+
+.vague
+{
+	height: 5vh;
+	width: 100vw;
+	z-index: 3;
+	position: absolute;
+	bottom: 7vh;
+	animation: waving 5s ease 1 normal ;
+	animation-iteration-count: infinite;
+	flex-wrap: wrap;
+}
+
+.vague2
+{
+	height: 8vh;
+	width: 100vw;
+	z-index: 2;
+	position: absolute;
+	bottom: 3vh;
+	animation: waving2 5s ease 1 normal ;
+	animation-iteration-count: infinite;
+	flex-wrap: wrap;
+}
+
+.vague3
+{
+	height: 9vh;
+	width: 100vw;
+	z-index:1;
+	position: absolute;
+	bottom: -5vh;
+	left: 0;
+	animation: waving3 5s ease 1 normal ;
+	animation-iteration-count: infinite;
+	flex-wrap: wrap;
+}

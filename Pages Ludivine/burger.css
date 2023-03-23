@@ -4,7 +4,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 62px;
+	height: 20vh;
 }
 
 .navbar
@@ -101,8 +101,8 @@
 {
 	padding-top: 10px;
 	background-color: white;
-	height: 90vh;
-	width: 75%;
+	height: 28vh;
+	width: 300px;
 	transform: translate(-100%);
 	display: flex;
 	flex-direction: column;
@@ -141,13 +141,13 @@
 
 .mainmenu
 {
-	height: 55vh;
-	background-color: #ffffff ;
+	height: 50vh;
+	/* background-color: #ffffff ; */
 	text-align: center;
 	display: flex;
 	align-items: center;
-	/* overflow: hidden;
-	*/
+	 /* overflow: hidden; */
+	
 }
 
 .wave-container
@@ -156,7 +156,7 @@
 	position: relative;
 	flex-wrap: wrap;
 	height: 20vh;
-	background-color:#ffffff;
+	/* background-color:#ffffff; */
 	max-width: 100%;
 	object-fit: cover;
 	overflow: hidden;
@@ -167,11 +167,9 @@
 	display: flex;
 	position: relative;
 	flex-wrap: wrap;
-	height: 25vh;
-	background-color:#ffffff;
+	height: 30vh;
+	/* background-color:#ffffff; */
 	max-width: 100%;
-	/* object-fit: cover;
-	*/
 }
 
 @keyframes waving
