@@ -1,0 +1,126 @@
+:root{    --main-background-color: red;
+          --secondary-background-color: grey;
+          --main-title-color: white;
+          --main-title-shadow-color: rgb(214, 214, 36);
+          --border-color: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* HEADER */
+/* ----------------------------------------------------- */
+header{
+    overflow-x:hidden;
+    width: 98.5vw;
+}
+
+
+/* MAIN */
+/* ----------------------------------------------------- */
+
+body{
+    font-family:'Roboto',sans-serif;  
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    width: 90vw;
+}
+@media screen and (max-width:1200px){
+    .block{
+        flex-direction: column;
+    }
+    .sblock{
+        width: 90vw !important;
+    }
+    .image img{
+        width: 80vw !important;
+        height: 55vw !important;
+    }
+    .titre{
+        margin-top: 30px;
+    }
+}
+.titre{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+h2{
+    font-size: 25px;
+    text-align: right;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.para{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+}
+.sblock{
+    width: 45vw;
+}
+.sous-block{
+    display: flex;
+    flex-direction: row;
+}
+.image img{
+   width: 35vw;
+   height: 22vw;
+   border-radius:6%;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+}
+.date img{
+    width: 20%;
+    height: 20%;
+}
+.image{
+   display: flex;
+   flex-direction: column;
+   width: 45vw;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.bas{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    
+}
+.haut{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
