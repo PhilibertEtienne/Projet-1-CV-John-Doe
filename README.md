@@ -14,7 +14,7 @@ J'ai travaillé principalement sur:
 
 * La gestion du projet en créant [le rétroplanning](https://docs.google.com/spreadsheets/d/1gv1YaWfi_jvm7euFOJNlzI2g8qA3fNnyZz18f2Bf6Vg/edit?usp=sharing) avec un diagramme de Gantt
 * La création du [wireframe](https://drive.google.com/file/d/1uzKqHaom3o4P_vGXoqMsp7InGiOWZwEG/view?usp=sharing)sur InDesign
-* Le menu Burger
+* Le menu burger
 * La page de présentation des compétences
 
 Technologies
@@ -26,8 +26,14 @@ Captures d'écran
 ----------------------------------
 Le site est responsive, il s'adapte à la taille de l'écran.
 
-La page compétence version desktop :
+**Le menu burger :**
+
 ![Menu Burger](https://github.com/ludivinemartel/Projet-1-CV-John-Doe/blob/master/Capture%20d%E2%80%99e%CC%81cran%202023-05-24%20a%CC%80%2010.58.09.png)
 
-La page compétence version mobile : 
-![Menu Burger](https://github.com/ludivinemartel/Projet-1-CV-John-Doe/blob/master/Capture%20d%E2%80%99e%CC%81cran%202023-05-24%20a%CC%80%2010.58.09.png)
+**Zoom sur la page compétences version desktop :**
+
+![Zoom page compétence](https://github.com/ludivinemartel/Projet-1-CV-John-Doe/blob/master/Capture%20d%E2%80%99e%CC%81cran%202023-05-24%20a%CC%80%2010.58.40.png)
+
+**Page compétences version mobile :**
+
+![version mobile](https://github.com/ludivinemartel/Projet-1-CV-John-Doe/blob/master/Capture%20d%E2%80%99e%CC%81cran%202023-05-24%20a%CC%80%2011.00.19.png)
