@@ -28,7 +28,7 @@ Le site est responsive, il s'adapte à la taille de l'écran.
 
 **Le menu burger :**
 
-![Menu Burger](https://github.com/ludivinemartel/Projet-1-CV-John-Doe/blob/master/Capture%20d%E2%80%99e%CC%81cran%202023-05-24%20a%CC%80%2010.58.09.png)
+<a href="https://ibb.co/LpJLzgt"><img src="https://i.ibb.co/WKPbWzy/Capture-d-e-cran-2023-05-24-a-10-58-09.png" alt="Capture-d-e-cran-2023-05-24-a-10-58-09" border="0"></a>
 
 **Zoom sur la page compétences version desktop :**
 
