@@ -24,4 +24,10 @@ Javascript
 
 Captures d'écran
 ----------------------------------
-![Menu Burger]
+Le site est responsive, il s'adapte à la taille de l'écran.
+
+La page compétence version desktop :
+![Menu Burger](https://github.com/ludivinemartel/Projet-1-CV-John-Doe/blob/master/Capture%20d%E2%80%99e%CC%81cran%202023-05-24%20a%CC%80%2010.58.09.png)
+
+La page compétence version mobile : 
+![Menu Burger](https://github.com/ludivinemartel/Projet-1-CV-John-Doe/blob/master/Capture%20d%E2%80%99e%CC%81cran%202023-05-24%20a%CC%80%2010.58.09.png)
