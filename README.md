@@ -12,10 +12,11 @@ Contributions personnelle
 --------------------------------------
 J'ai travaillé principalement sur:
 
-* La gestion du projet en créant [le rétroplanning](https://docs.google.com/spreadsheets/d/1gv1YaWfi_jvm7euFOJNlzI2g8qA3fNnyZz18f2Bf6Vg/edit?usp=sharing) avec un diagramme de Gantt
-* La création du [wireframe](https://drive.google.com/file/d/1uzKqHaom3o4P_vGXoqMsp7InGiOWZwEG/view?usp=sharing)sur InDesign
-* Le menu burger
-* La page de présentation des compétences
+* La charte graphique du site
+* La homepage
+* Les animations
+* Le formulaire de contact
+
 
 Technologies
 --------------------------------------
@@ -25,12 +26,12 @@ Technologies
 
 Captures d'écran
 ----------------------------------
-Le site est responsive, il s'adapte à la taille de l'écran.
+Le site est responsive et s'adapte aux différentes tailles d'écran
 
-**Le menu burger :**
+**La home page:**
 
 <p align="center">
-<a href="https://ibb.co/LpJLzgt"><img src="https://i.ibb.co/WKPbWzy/Capture-d-e-cran-2023-05-24-a-10-58-09.png" alt="Capture-d-e-cran-2023-05-24-a-10-58-09" border="0"></a>
+<a href="https://ibb.co/LpJLzgt"><img src="https://i.ibb.co/WKPbWzy/Capture-d-e-cran-2023-05-24-a-10-58-09.png(https://ibb.co/yh1hxbS)" alt="Capture-d-e-cran-2023-05-24-a-10-58-09" border="0"></a>
 </p>
 
 **Zoom sur la page compétences version desktop :**
