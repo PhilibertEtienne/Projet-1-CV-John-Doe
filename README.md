@@ -31,7 +31,7 @@ Le site est responsive et s'adapte aux différentes tailles d'écran
 **La home page:**
 
 <p align="center">
-<a href="https://ibb.co/LpJLzgt"><img src="https://i.ibb.co/WKPbWzy/Capture-d-e-cran-2023-05-24-a-10-58-09.png(https://ibb.co/yh1hxbS)" alt="Capture-d-e-cran-2023-05-24-a-10-58-09" border="0"></a>
+<a href="https://ibb.co/yh1hxbS"></a>
 </p>
 
 **Zoom sur la page compétences version desktop :**
