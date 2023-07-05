@@ -34,7 +34,7 @@ Le site est responsive et s'adapte aux différentes tailles d'écran
 <a href="https://ibb.co/yh1hxbS"></a>
 </p>
 
-**Zoom sur la page compétences version desktop :**
+* Homepage responsive**
 
 La partie sur les compétences se charge de manière dynamique au moment de l'actualisation de la page grace à JS.
 
