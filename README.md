@@ -31,7 +31,7 @@ Le site est responsive et s'adapte aux différentes tailles d'écran
 **La home page:**
 
 <p align="center">
-<a href="https://ibb.co/yh1hxbS"></a>
+<img src="https://i.ibb.co/DGyGjSp/capture1.png" alt="capture1" border="0">
 </p>
 
 * Homepage responsive**
