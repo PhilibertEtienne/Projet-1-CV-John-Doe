@@ -50,5 +50,5 @@ La partie sur les compétences se charge de manière dynamique au moment de l'ac
 
 Contact
 ------------------------------------
-* [LinkedIn](https://www.linkedin.com/in/ludivine-martel-549a56140/)
-* Adresse mail : mrt.ludivine@gmail.com
+* [LinkedIn](https://www.linkedin.com/in/etiennephilibert/)
+* Adresse mail : philibert.etienne4@orange.fr
