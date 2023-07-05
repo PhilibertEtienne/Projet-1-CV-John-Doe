@@ -39,13 +39,13 @@ Le site est responsive et s'adapte aux différentes tailles d'écran
 La partie sur les compétences se charge de manière dynamique au moment de l'actualisation de la page grace à JS.
 
 <p align="center">
-<a href="https://ibb.co/MDJQd01"><img src="https://i.ibb.co/XZGMHR5/Capture-d-e-cran-2023-05-24-a-10-58-40.png" alt="Capture-d-e-cran-2023-05-24-a-10-58-40" border="0"></a>
+<img src="https://i.ibb.co/grK3JwR/capture2.png" alt="capture2" border="0">
 </p>
 
-**Page compétences version mobile :**
+**Le formulaire:**
 
 <p align="center">
-<a href="https://ibb.co/3vsgHLV"><img src="https://i.ibb.co/zF5qw0C/Capture-d-e-cran-2023-05-24-a-11-00-19.png" alt="Capture-d-e-cran-2023-05-24-a-11-00-19" border="0"></a>
+<img src="https://i.ibb.co/3W3GxFz/capture3.png" alt="capture3" border="0">
 </p>
 
 Contact
